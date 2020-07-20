@@ -1,0 +1,40 @@
+.center {
+  text-align: center;
+}
+
+.mainHead {
+  background-color: rgb(127, 172, 255);
+  padding: 7px;
+  margin-right: 0px;
+}
+
+.headerText {
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+  color: black;
+}
+
+.headerText:hover {
+  background-color: aliceblue;
+}
+
+@media only screen and (max-width: 576px) {
+  #media {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #media2 {
+    border-bottom: 2px dotted black;
+    margin: 0px auto;
+  }
+}
+
+* {
+  font-family: 'Mulish', sans-serif;
+  font-size: large;
+}
